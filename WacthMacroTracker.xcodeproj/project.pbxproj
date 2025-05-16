@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3A93CE2DD5874F00B12FFD /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3A93CD2DD5874F00B12FFD /* WatchConnectivity.framework */; };
+		DFE1A9ED2DD42A8000942C48 /* WacthMacroTracker Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DFE1A9EC2DD42A8000942C48 /* WacthMacroTracker Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE1A9F22DD42A8000942C48 /* WacthMacroTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1A9F12DD42A8000942C48 /* WacthMacroTrackerApp.swift */; };
+		DFE1A9F42DD42A8000942C48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1A9F32DD42A8000942C48 /* ContentView.swift */; };
+		DFE1A9F62DD42A8600942C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE1A9F52DD42A8500942C48 /* Assets.xcassets */; };
+		DFE1A9F92DD42A8600942C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE1A9F82DD42A8600942C48 /* Preview Assets.xcassets */; };
+		DFE1AA052DD42F2400942C48 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1AA042DD42F2400942C48 /* WatchConnector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFE1A9EE2DD42A8000942C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE1A9E02DD42A7F00942C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE1A9EB2DD42A8000942C48;
+			remoteInfo = "WacthMacroTracker Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFE1A9FF2DD42A8600942C48 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DFE1A9ED2DD42A8000942C48 /* WacthMacroTracker Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF3A93CD2DD5874F00B12FFD /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		DFE1A9E62DD42A8000942C48 /* WacthMacroTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WacthMacroTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE1A9EC2DD42A8000942C48 /* WacthMacroTracker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WacthMacroTracker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE1A9F12DD42A8000942C48 /* WacthMacroTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WacthMacroTrackerApp.swift; sourceTree = "<group>"; };
+		DFE1A9F32DD42A8000942C48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFE1A9F52DD42A8500942C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE1A9F82DD42A8600942C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFE1AA032DD42F2300942C48 /* WacthMacroTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WacthMacroTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFE1AA042DD42F2400942C48 /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE1A9E92DD42A8000942C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3A93CE2DD5874F00B12FFD /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3A93CC2DD5874E00B12FFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF3A93CD2DD5874F00B12FFD /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE1A9DF2DD42A7F00942C48 = {
+			isa = PBXGroup;
+			children = (
+				DFE1A9F02DD42A8000942C48 /* WacthMacroTracker Watch App */,
+				DFE1A9E72DD42A8000942C48 /* Products */,
+				DF3A93CC2DD5874E00B12FFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE1A9E72DD42A8000942C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1A9E62DD42A8000942C48 /* WacthMacroTracker.app */,
+				DFE1A9EC2DD42A8000942C48 /* WacthMacroTracker Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE1A9F02DD42A8000942C48 /* WacthMacroTracker Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1A9F12DD42A8000942C48 /* WacthMacroTrackerApp.swift */,
+				DFE1A9F32DD42A8000942C48 /* ContentView.swift */,
+				DFE1A9F52DD42A8500942C48 /* Assets.xcassets */,
+				DFE1A9F72DD42A8600942C48 /* Preview Content */,
+				DFE1AA042DD42F2400942C48 /* WatchConnector.swift */,
+				DFE1AA032DD42F2300942C48 /* WacthMacroTracker-Bridging-Header.h */,
+			);
+			path = "WacthMacroTracker Watch App";
+			sourceTree = "<group>";
+		};
+		DFE1A9F72DD42A8600942C48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1A9F82DD42A8600942C48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE1A9E52DD42A8000942C48 /* WacthMacroTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE1AA002DD42A8600942C48 /* Build configuration list for PBXNativeTarget "WacthMacroTracker" */;
+			buildPhases = (
+				DFE1A9E42DD42A8000942C48 /* Resources */,
+				DFE1A9FF2DD42A8600942C48 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE1A9EF2DD42A8000942C48 /* PBXTargetDependency */,
+			);
+			name = WacthMacroTracker;
+			productName = WacthMacroTracker;
+			productReference = DFE1A9E62DD42A8000942C48 /* WacthMacroTracker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DFE1A9EB2DD42A8000942C48 /* WacthMacroTracker Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE1A9FC2DD42A8600942C48 /* Build configuration list for PBXNativeTarget "WacthMacroTracker Watch App" */;
+			buildPhases = (
+				DFE1A9E82DD42A8000942C48 /* Sources */,
+				DFE1A9E92DD42A8000942C48 /* Frameworks */,
+				DFE1A9EA2DD42A8000942C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WacthMacroTracker Watch App";
+			productName = "WacthMacroTracker Watch App";
+			productReference = DFE1A9EC2DD42A8000942C48 /* WacthMacroTracker Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE1A9E02DD42A7F00942C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DFE1A9E52DD42A8000942C48 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					DFE1A9EB2DD42A8000942C48 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DFE1A9E32DD42A7F00942C48 /* Build configuration list for PBXProject "WacthMacroTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE1A9DF2DD42A7F00942C48;
+			productRefGroup = DFE1A9E72DD42A8000942C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE1A9E52DD42A8000942C48 /* WacthMacroTracker */,
+				DFE1A9EB2DD42A8000942C48 /* WacthMacroTracker Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE1A9E42DD42A8000942C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE1A9EA2DD42A8000942C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE1A9F92DD42A8600942C48 /* Preview Assets.xcassets in Resources */,
+				DFE1A9F62DD42A8600942C48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE1A9E82DD42A8000942C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE1A9F42DD42A8000942C48 /* ContentView.swift in Sources */,
+				DFE1AA052DD42F2400942C48 /* WatchConnector.swift in Sources */,
+				DFE1A9F22DD42A8000942C48 /* WacthMacroTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFE1A9EF2DD42A8000942C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE1A9EB2DD42A8000942C48 /* WacthMacroTracker Watch App */;
+			targetProxy = DFE1A9EE2DD42A8000942C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFE1A9FA2DD42A8600942C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFE1A9FB2DD42A8600942C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DFE1A9FD2DD42A8600942C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WacthMacroTracker Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = DH23YX5GQ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WacthMacroTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.devSamuca.WacthMacroTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		DFE1A9FE2DD42A8600942C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WacthMacroTracker Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = DH23YX5GQ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WacthMacroTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.devSamuca.WacthMacroTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		DFE1AA012DD42A8600942C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DH23YX5GQ3;
+				INFOPLIST_KEY_CFBundleDisplayName = WacthMacroTracker;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.devSamuca.WacthMacroTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "WacthMacroTracker Watch App/WacthMacroTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DFE1AA022DD42A8600942C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DH23YX5GQ3;
+				INFOPLIST_KEY_CFBundleDisplayName = WacthMacroTracker;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.devSamuca.WacthMacroTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "WacthMacroTracker Watch App/WacthMacroTracker-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE1A9E32DD42A7F00942C48 /* Build configuration list for PBXProject "WacthMacroTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE1A9FA2DD42A8600942C48 /* Debug */,
+				DFE1A9FB2DD42A8600942C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE1A9FC2DD42A8600942C48 /* Build configuration list for PBXNativeTarget "WacthMacroTracker Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE1A9FD2DD42A8600942C48 /* Debug */,
+				DFE1A9FE2DD42A8600942C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE1AA002DD42A8600942C48 /* Build configuration list for PBXNativeTarget "WacthMacroTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE1AA012DD42A8600942C48 /* Debug */,
+				DFE1AA022DD42A8600942C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE1A9E02DD42A7F00942C48 /* Project object */;
+}
