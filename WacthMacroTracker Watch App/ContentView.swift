@@ -38,9 +38,6 @@ struct ListItem : Identifiable, Hashable {
         }
     }
     
-    //Create a simple list
-    
-    
 }
 
 
